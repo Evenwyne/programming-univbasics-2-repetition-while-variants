@@ -4,6 +4,7 @@
 
 * Use `Integer`.times to execute a loop _n_-times
 * Use `loop` to create an infinite loop
+* Use `until` to repeat
 
 ## Introduction
 
@@ -77,6 +78,38 @@ Programmers would say `loop` is more **expressive** of an intention to run
 infinitely and break on a condition. The  `while...do...end` _just happens_ to
 run forever. The intention of `loop` **means** "I intend to run forever." It's
 a nice way to communicate to other programmers what your intention is.
+
+## Use `until` to repeat
+
+The _repetition_ statement `until` is the inverse of a `while` loop.
+
+A `while` executes the block of code _while_ the _conditional expression_ is
+`true`.
+
+An `until` will execute a block _until_ a specific condition is true. In other
+words, the block of code following `until` will execute while the condition is
+`false`. One helpful way to think about it is to read `until` as "if not".
+
+> **LOGICIANS / LINGUISTS**: Yet again `until` is "while-if-not," and `unless`
+> is "if-not." This all part of DeMorgan's theorems, as discussed earlier!
+
+```ruby
+counter = 0
+until counter == 20
+  puts "The current number is less than 20."
+  counter += 1
+end
+```
+
+Let's break it down:
+
+* The counter once again starts at `0`. If it is *not* true that the counter is
+  equal to `20`, the program will execute the code in the block.
+* Inside the block, we will `puts` a phrase and increment the counter by `1`.
+* Then, the program will go back to the top of the `until` loop and once again
+  check to see if the counter is equal to `20`. If it is *not* true that the
+  counter is equal to `20`, then the program will continue executing the code in
+  the block. Otherwise, the program will break out of the loop.
 
 ## Conclusion
 
