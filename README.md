@@ -12,11 +12,11 @@ general _repetition_ statement you can know. However, we often execute the same
 type of loop frequently and Ruby has some variations on `while...do...end` that
 are handy to know.
 
-## Use `Integer`.times to execute a loop _n_-times
+## Use `Integer`.times to Execute a Loop _n_-times
 
-It's very common to want to repeat a bit of code some number (typically written
-as _n_) times. We can use a `while...do...end` for this purpose. Let's run some
-code three times:
+It's very common to want to repeat a bit of code some number of times
+(typically written as _n_) . We can use a `while...do...end` for this purpose.
+Let's run some code three times:
 
 ```ruby
 n = 2
