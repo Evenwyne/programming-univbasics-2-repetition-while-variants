@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-* Use `Integer`.times to execute a loop _n_-times
+* Use `Integer`'s `.times` method to execute a loop _n_-times
 * Use `loop` to create an infinite loop
 * Use `until` to repeat
 
