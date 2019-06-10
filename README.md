@@ -40,9 +40,11 @@ There's lots of room for confusion here. We set `count` to 0 and count up to or
 equal `n`. That's a confusing way of saying "do something 3 times." Ruby agrees
 and lets us say
 
+```ruby
 3.times do
   puts "I ran."
 end
+```
 
 This relies upon us using a _method_ (you might recall `3.class` or
 `Time.now.year` as being _methods_) called `times` that all `Integer`s provide.
