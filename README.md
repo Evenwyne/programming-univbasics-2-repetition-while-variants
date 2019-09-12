@@ -81,7 +81,7 @@ infinitely and break on a condition. The  `while...do...end` _just happens_ to
 run forever. The intention of `loop` **means** "I intend to run forever." It's
 a nice way to communicate to other programmers what your intention is.
 
-## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) ) Use `until` to repeat
+## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) Use `until` to repeat
 
 The _repetition_ statement `until` is the inverse of a `while` loop.
 
