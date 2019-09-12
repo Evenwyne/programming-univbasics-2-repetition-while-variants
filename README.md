@@ -13,7 +13,7 @@ general _repetition_ statement you can know. However, we often execute the same
 type of loop frequently and Ruby has some variations on `while...do...end` that
 are handy to know.
 
-## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_thick.png) Use `Integer`.times to Execute a Loop _n_-times
+## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) Use `Integer`.times to Execute a Loop _n_-times
 
 It's very common to want to repeat a bit of code some number of times
 (typically written as _n_) . We can use a `while...do...end` for this purpose.
@@ -49,7 +49,7 @@ end
 This relies upon us using a _method_ (you might recall `3.class` or
 `Time.now.year` as being _methods_) called `times` that all `Integer`s provide.
 
-## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_mini.png) Use `loop` to Create an Infinite Loop
+## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) Use `loop` to Create an Infinite Loop
 
 Sometimes we want to create an infinite loop that we want to `break` from.
 
@@ -81,7 +81,7 @@ infinitely and break on a condition. The  `while...do...end` _just happens_ to
 run forever. The intention of `loop` **means** "I intend to run forever." It's
 a nice way to communicate to other programmers what your intention is.
 
-## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_mid.png) Use `until` to repeat
+## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) ) Use `until` to repeat
 
 The _repetition_ statement `until` is the inverse of a `while` loop.
 
