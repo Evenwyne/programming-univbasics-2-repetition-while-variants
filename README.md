@@ -9,9 +9,15 @@
 ## Introduction
 
 As we mentioned previously, a `while...do...end` loop is the most useful
-general _repetition_ statement you can know. However, we often execute the same
-type of loop frequently and Ruby has some variations on `while...do...end` that
-are handy to know.
+general _repetition_ statement you can know. However, we often want to make
+a slight adjustment to the loop that makes it easier to read or to express
+a slightly different idea.
+
+In real life there are lots of ways to say the same thing: for example, active voice
+("I wrecked the car") or passive voice ("The car was wrecked by, sadly, me"). They
+both express the same idea (You're gonna need a new car...) but with subtle different
+hints or "connotations." The same is true with our loops. Let's take a look
+at these subtle variants to `while...do...end`.
 
 ## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) Use `Integer`.times to Execute a Loop _n_-times
 
@@ -46,8 +52,7 @@ and lets us say
 end
 ```
 
-This relies upon us using a _method_ (you might recall `3.class` or
-`Time.now.year` as being _methods_) called `times` that all `Integer`s provide.
+This relies upon us using a _method_ (you might recall `3.class`  being _method_) called `times` that all `Integer`s provide. There's a lot more to say about _methods_, but that will come later.
 
 ## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) Use `loop` to Create an Infinite Loop
 
@@ -77,9 +82,12 @@ end
 ```
 
 Programmers would say `loop` is more **expressive** of an intention to run
-infinitely and break on a condition. The  `while...do...end` _just happens_ to
+infinitely and break on an exceptional condition. The  `while...do...end` _just happens_ to
 run forever. The intention of `loop` **means** "I intend to run forever." It's
-a nice way to communicate to other programmers what your intention is.
+a nice way to communicate to other programmers what your intention is. For example
+a missile might hae a `loop...end` that does things like check direction and target
+position. It might stop that loop only if it receives the "emergency self-destruct"
+"exceptional" signal.
 
 ## ![Repetition Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Repetition_midi.png) Use `until` to repeat
 
@@ -92,7 +100,7 @@ An `until` will execute a block _until_ a specific condition is true. In other
 words, the block of code following `until` will execute while the condition is
 `false`. One helpful way to think about it is to read `until` as "if not".
 
-> **LOGICIANS / LINGUISTS**: Yet again `until` is "while-if-not," and `unless`
+> **LOGICIANS / LINGUISTS**: Yet again, `until` is "while-if-not," as `unless`
 > is "if-not." This all part of DeMorgan's theorems, as discussed earlier!
 
 ```ruby
